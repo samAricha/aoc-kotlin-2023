@@ -4,7 +4,6 @@ import readFileInput
 import java.lang.StringBuilder
 
 fun main() {
-
     val file1 = "day01/day_01_1"
     val file2 = "day01/day_01_2"
     val file2test = "day01/day_01_test2"
