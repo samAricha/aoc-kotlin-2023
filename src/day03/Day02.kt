@@ -1,15 +1,21 @@
-package day02
+package day03
 
 import readFileInput
 
 fun main() {
-    val file1 = "day01/day_01_1"
-    val file2 = "day01/day_01_2"
-    val file2test = "day01/day_01_test2"
+    val file1test = "day03/day_03_test2"
+    val file2test = "day03/day_03_test1"
+
+    val file1 = "day03/day_03_1"
+    val file2 = "day03/day_03_2"
+
+
 
     val fileInput1 = readFileInput(file1)
-    val fileInput2Test = readFileInput(file2test)
     val fileInput2 = readFileInput(file2)
+    val fileInputTest1 = readFileInput(file2test)
+    val fileInputTest2 = readFileInput(file2test)
+
 
 
     val total1 = solvePart1(fileInput1)
